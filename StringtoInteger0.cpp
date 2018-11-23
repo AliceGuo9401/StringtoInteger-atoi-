@@ -55,6 +55,7 @@ int myAtoi(string str) {
         } else
             return 0;
     }
+    
     return 0;
 }
 int main() {

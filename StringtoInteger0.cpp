@@ -15,7 +15,7 @@ int myAtoi(string str) {
     }
     int integer(0);
 
-    if (0 <= str[i] - '0' && str[i] - '0' <= 9) {
+    if (0 <= str[i] - '0' && str[i] - '0' <= 9) {   /**/
         while (0 <= str[i] - '0' && str[i] - '0' <= 9 && i < str.size()) {
             if (integer <= 214748363 || (integer == 214748364 && str[i] - '0' <= 7)) {
                 integer = integer * 10 + str[i] - '0';
